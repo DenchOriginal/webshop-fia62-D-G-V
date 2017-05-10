@@ -1,0 +1,55 @@
+nav {
+	background-color: #212121;
+}
+
+.buttonWrapper {
+	text-align: right;
+	margin-right: 40px;
+}
+
+.dropdown-button {
+	color: #282828;
+}
+
+.loginNav {
+	width: 100px;
+	border-radius: 0;
+}
+
+.modal {
+	 width: 40%;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+  /* label color */
+   .input-field label {
+     color: #212121;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #212121;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #212121;
+     box-shadow: 0 1px 0 0 #212121;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #43a047;
+     box-shadow: 0 1px 0 0 #43a047;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #d32f2f;
+     box-shadow: 0 1px 0 0 #212121;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #212121;
+   }
+
