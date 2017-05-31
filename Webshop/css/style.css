@@ -1,5 +1,11 @@
+.logo {
+	max-height: 70px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
 nav {
-	background-color: #212121;
+	background-color: #3C2415;
 }
 
 .buttonWrapper {
@@ -18,6 +24,22 @@ nav {
 
 .modal {
 	 width: 40%;
+}
+
+.begrenzerMitte {
+	text-align: center;
+}
+
+.begrenzer {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.card {
+	width: 30%;
+	margin: 5px;
+	display: table;
+	float: left;
 }
 
 h2 {
