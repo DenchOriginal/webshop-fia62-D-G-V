@@ -16,6 +16,7 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/produkte.json"></script>
 
 </head>
 
@@ -64,7 +65,7 @@
             
             <center>
               <div class="row">
-                <button type="submit" name="btn_login" class="col s12 btn btn-large modal-close waves-effect indigo">Login</button>
+                <button type="submit" name="btn_login" class="col s12 btn login-btn btn-large modal-close brown darken-2">Login</button>
               </div>
             </center>
           </form>
@@ -74,10 +75,11 @@
 <p class="begrenzerMitte">
 <div class="begrenzer">
   
-  <div class="row main">
-      <div class="card">
+  <div class="row main" id="kacheln">
+     
+      <div class="card" id="card-template" style="display:none">
         <div class="card-image">
-          <img src="images/sample-1.jpg">
+          <img id="image" class="image" src="platzhalter">
           <span class="card-title">Card Title</span>
           <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
         </div>
@@ -86,28 +88,7 @@
         </div>
       </div>
       
-      <div class="card">
-        <div class="card-image">
-          <img src="images/sample-1.jpg">
-          <span class="card-title">Card Title</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
-        </div>
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-        </div>
-      </div>
-      
-      <div class="card">
-        <div class="card-image">
-          <img src="images/sample-1.jpg">
-          <span class="card-title">Card Title</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">shopping_cart</i></a>
-        </div>
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-        </div>
-      </div>
-    </div>
+
             
 </div>
 </p>

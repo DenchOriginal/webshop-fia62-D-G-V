@@ -1,0 +1,17 @@
+{"produkte":{ 
+	"gerichte": [
+	{"name": "Burger", "price": "6","image": "burger.jpg", "description": "Die Spezialität aus dem Land der Freheit."},
+	{"name": "Currywurst", "price": "2","image": "currywurst.jpg", "description": "Typisch deutsch! Ungesund und fettig aber lecker."},
+	{"name": "Kebab", "price": "4","image": "kebab.jpg", "description": "Ursprünglich türkisch, aber in Deutschland verbessert."},
+	{"name": "Pizza", "price": "8","image": "pizza.jpg", "description": "Genialität aus Italien. Belag nach Wahl."},
+	{"name": "Schnitzel", "price": "12","image": "schnitzel.jpg", "description": "Der zweitbeste Export aus Österreich."},
+	{"name": "Hot Dog", "price": "2","image": "hotdogs.jpg", "description": "Wurst im Brötchen. Gut und günstig."},
+	{"name": "Pommes", "price": "1","image": "fries.jpg", "description": "Geschnittene Kartoffeln. Gut mit Mayonaise."},
+	{"name": "Steak", "price": "15","image": "steak.jpg", "description": "Alles was der Männermagen begehrt!"},
+	{"name": "Salat", "price": "5","image": "salad.jpg", "description": "Hier Bizeps-Witz einfügen. Ha.. Ha."},
+	{"name": "Obstsalat", "price": "8","image": "fruitsalad.jpg", "description": "Ein bunter, schmackhafter, saftiger Misch-Masch."},
+	{"name": "Kuchen", "price": "4","image": "cheesecake.jpg", "description": "Seit Jahren einer der Gründe für Diabetis."},
+	{"name": "Eis", "price": "1","image": "icecream.jpg", "description": "Die Italiener können eben nicht nur Pizza backen."}
+	]
+}
+}

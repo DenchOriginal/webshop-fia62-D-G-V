@@ -26,6 +26,10 @@ nav {
 	 width: 40%;
 }
 
+.login-btn {
+	background-color: #3C2415;
+}
+
 .begrenzerMitte {
 	text-align: center;
 }
@@ -40,6 +44,11 @@ nav {
 	margin: 5px;
 	display: table;
 	float: left;
+}
+
+.card .card-content {
+	height: 100%;
+	padding: 18px;
 }
 
 h2 {
